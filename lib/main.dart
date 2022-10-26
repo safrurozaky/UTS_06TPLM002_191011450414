@@ -42,9 +42,9 @@ class _MyWidgetState extends State<MyWidget> {
                   ),
                 ),
                 CircleAvatar(
-                  child: Icon(
-                    Icons.person,
-                  ),
+                  backgroundColor: Colors.white,
+                  backgroundImage: NetworkImage(
+                      'https://cdn-icons-png.flaticon.com/512/2202/2202112.png'),
                 ),
               ],
             ),
